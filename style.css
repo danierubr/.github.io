@@ -19,6 +19,42 @@ iframe {
     height: 350px;
 }
 
+/* IFRAME ICONS */
+.fa {
+    padding-top: 10px;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.fa-whatsapp {
+    background: #25d366;
+    color: white;
+}
+
+.fa-envelope-o {
+    background: #2c4762;
+    color: white;
+}
+
+
+/* END IFRAME ICONS*/
+
 div.cover {
     background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
     height: 360px;
@@ -74,7 +110,7 @@ div.cover-contact a:first-child {
 }
 
 a.contact-button {
-    color: var(--color1);
+    color: var(--color2);
     border: 3px solid var(--color1);
     padding: 8px 20px;
     text-decoration: none;
